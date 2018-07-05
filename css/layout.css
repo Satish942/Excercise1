@@ -1,34 +1,25 @@
-
-/* STRUCTURE */
-
-.wrapper {
-	padding: 5px;
-	max-width: 960px;
-	width: 95%;
-	margin: 20px auto;
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
 }
 
-.columns {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	margin: 5px 0;
+/* Header/logo Title */
+header {
+    padding: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    position: sticky;
+    width: inherit;
+    top:0;
 }
 
-.column {
-	flex: 1;
-	border: 1px solid gray;
-	margin: 2px;
-	padding: 10px;
-	&:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }
 
-}
-.row{
-  flex: 1;
-  border: 1px solid gray;
-  margin: 2px;
-  padding: 40px;
-  &:first-child { margin-left: 0; }
-  &:last-child { margin-right: 0; }
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
 }
